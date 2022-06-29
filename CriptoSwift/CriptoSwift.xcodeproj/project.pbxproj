@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61EDA13AC884E7E7CC51300C /* Pods_CriptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3E2B8215EE4502E2B06FA1 /* Pods_CriptoSwift.framework */; };
+		A4FC96A328622F1300D43259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96A228622F1300D43259 /* AppDelegate.swift */; };
+		A4FC96A728622F1400D43259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96A628622F1400D43259 /* ViewController.swift */; };
+		A4FC96AA28622F1400D43259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FC96A828622F1400D43259 /* Main.storyboard */; };
+		A4FC96AC28622F1700D43259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FC96AB28622F1700D43259 /* Assets.xcassets */; };
+		A4FC96AF28622F1700D43259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FC96AD28622F1700D43259 /* LaunchScreen.storyboard */; };
+		A4FC96BB28624A0600D43259 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96BA28624A0600D43259 /* Payload.swift */; };
+		A4FC96BD28624A4E00D43259 /* JWTHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96BC28624A4E00D43259 /* JWTHeader.swift */; };
+		A4FC96BF28624A7E00D43259 /* JWTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96BE28624A7E00D43259 /* JWTAlgorithm.swift */; };
+		A4FC96C128624A9700D43259 /* JWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96C028624A9700D43259 /* JWTError.swift */; };
+		A4FC96C328624AB600D43259 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96C228624AB600D43259 /* Extensions.swift */; };
+		A4FC96C528624AEE00D43259 /* JWTEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96C428624AEE00D43259 /* JWTEncoder.swift */; };
+		A4FC96C728624B2300D43259 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FC96C628624B2300D43259 /* JWT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE19E66FFED8912A8A09BC4 /* Pods-CriptoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoSwift.debug.xcconfig"; path = "Target Support Files/Pods-CriptoSwift/Pods-CriptoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3E2B8215EE4502E2B06FA1 /* Pods_CriptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CriptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FC969F28622F1300D43259 /* CriptoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriptoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FC96A228622F1300D43259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FC96A628622F1400D43259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FC96A928622F1400D43259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FC96AB28622F1700D43259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FC96AE28622F1700D43259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FC96B028622F1700D43259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FC96BA28624A0600D43259 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		A4FC96BC28624A4E00D43259 /* JWTHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTHeader.swift; sourceTree = "<group>"; };
+		A4FC96BE28624A7E00D43259 /* JWTAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTAlgorithm.swift; sourceTree = "<group>"; };
+		A4FC96C028624A9700D43259 /* JWTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTError.swift; sourceTree = "<group>"; };
+		A4FC96C228624AB600D43259 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A4FC96C428624AEE00D43259 /* JWTEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTEncoder.swift; sourceTree = "<group>"; };
+		A4FC96C628624B2300D43259 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		E51937C89EAFC3DA1B59AA32 /* Pods-CriptoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoSwift.release.xcconfig"; path = "Target Support Files/Pods-CriptoSwift/Pods-CriptoSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FC969C28622F1300D43259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EDA13AC884E7E7CC51300C /* Pods_CriptoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BCA73BF9940951B5FE2228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A3E2B8215EE4502E2B06FA1 /* Pods_CriptoSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9934A790B61FF0DA8A130B4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE19E66FFED8912A8A09BC4 /* Pods-CriptoSwift.debug.xcconfig */,
+				E51937C89EAFC3DA1B59AA32 /* Pods-CriptoSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4FC969628622F1300D43259 = {
+			isa = PBXGroup;
+			children = (
+				A4FC96A128622F1300D43259 /* CriptoSwift */,
+				A4FC96A028622F1300D43259 /* Products */,
+				9934A790B61FF0DA8A130B4E /* Pods */,
+				64BCA73BF9940951B5FE2228 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FC96A028622F1300D43259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FC969F28622F1300D43259 /* CriptoSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FC96A128622F1300D43259 /* CriptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A4FC96A228622F1300D43259 /* AppDelegate.swift */,
+				A4FC96A628622F1400D43259 /* ViewController.swift */,
+				A4FC96A828622F1400D43259 /* Main.storyboard */,
+				A4FC96AB28622F1700D43259 /* Assets.xcassets */,
+				A4FC96AD28622F1700D43259 /* LaunchScreen.storyboard */,
+				A4FC96B028622F1700D43259 /* Info.plist */,
+				A4FC96BA28624A0600D43259 /* Payload.swift */,
+				A4FC96BC28624A4E00D43259 /* JWTHeader.swift */,
+				A4FC96BE28624A7E00D43259 /* JWTAlgorithm.swift */,
+				A4FC96C028624A9700D43259 /* JWTError.swift */,
+				A4FC96C228624AB600D43259 /* Extensions.swift */,
+				A4FC96C428624AEE00D43259 /* JWTEncoder.swift */,
+				A4FC96C628624B2300D43259 /* JWT.swift */,
+			);
+			path = CriptoSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FC969E28622F1300D43259 /* CriptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FC96B328622F1700D43259 /* Build configuration list for PBXNativeTarget "CriptoSwift" */;
+			buildPhases = (
+				4B2CA6389D865CD43743BD77 /* [CP] Check Pods Manifest.lock */,
+				A4FC969B28622F1300D43259 /* Sources */,
+				A4FC969C28622F1300D43259 /* Frameworks */,
+				A4FC969D28622F1300D43259 /* Resources */,
+				15F2682544303A126224642C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CriptoSwift;
+			productName = CriptoSwift;
+			productReference = A4FC969F28622F1300D43259 /* CriptoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FC969728622F1300D43259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A4FC969E28622F1300D43259 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4FC969A28622F1300D43259 /* Build configuration list for PBXProject "CriptoSwift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FC969628622F1300D43259;
+			productRefGroup = A4FC96A028622F1300D43259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FC969E28622F1300D43259 /* CriptoSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FC969D28622F1300D43259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FC96AF28622F1700D43259 /* LaunchScreen.storyboard in Resources */,
+				A4FC96AC28622F1700D43259 /* Assets.xcassets in Resources */,
+				A4FC96AA28622F1400D43259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F2682544303A126224642C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoSwift/Pods-CriptoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoSwift/Pods-CriptoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CriptoSwift/Pods-CriptoSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2CA6389D865CD43743BD77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CriptoSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FC969B28622F1300D43259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FC96C528624AEE00D43259 /* JWTEncoder.swift in Sources */,
+				A4FC96C128624A9700D43259 /* JWTError.swift in Sources */,
+				A4FC96C728624B2300D43259 /* JWT.swift in Sources */,
+				A4FC96BD28624A4E00D43259 /* JWTHeader.swift in Sources */,
+				A4FC96BF28624A7E00D43259 /* JWTAlgorithm.swift in Sources */,
+				A4FC96BB28624A0600D43259 /* Payload.swift in Sources */,
+				A4FC96A728622F1400D43259 /* ViewController.swift in Sources */,
+				A4FC96A328622F1300D43259 /* AppDelegate.swift in Sources */,
+				A4FC96C328624AB600D43259 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FC96A828622F1400D43259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FC96A928622F1400D43259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FC96AD28622F1700D43259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FC96AE28622F1700D43259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FC96B128622F1700D43259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FC96B228622F1700D43259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FC96B428622F1700D43259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE19E66FFED8912A8A09BC4 /* Pods-CriptoSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CriptoSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.CriptoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FC96B528622F1700D43259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51937C89EAFC3DA1B59AA32 /* Pods-CriptoSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CriptoSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.CriptoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FC969A28622F1300D43259 /* Build configuration list for PBXProject "CriptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FC96B128622F1700D43259 /* Debug */,
+				A4FC96B228622F1700D43259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FC96B328622F1700D43259 /* Build configuration list for PBXNativeTarget "CriptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FC96B428622F1700D43259 /* Debug */,
+				A4FC96B528622F1700D43259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FC969728622F1300D43259 /* Project object */;
+}
